@@ -11,9 +11,9 @@ google-generativeai>=0.8.0
 langchain==0.0.350
 langchain-openai==0.0.2
 langchain-anthropic==0.1.0
-transformers==4.35.0
-torch==2.1.0
-sentence-transformers==2.2.2
+transformers>=4.35.0
+torch>=2.5.0
+sentence-transformers>=2.2.2
 
 # Database
 sqlalchemy==2.0.23
@@ -36,7 +36,7 @@ opencv-python==4.8.1.78
 moviepy==1.0.3
 
 # Audio Processing
-openai-whisper==20231117
+openai-whisper>=20231117
 pyttsx3==2.90
 pydub==0.25.1
 
