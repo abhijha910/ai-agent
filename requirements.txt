@@ -1,0 +1,69 @@
+# Core Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# AI & ML Libraries
+openai>=1.6.1
+anthropic>=0.16.0
+google-generativeai>=0.8.0
+langchain==0.0.350
+langchain-openai==0.0.2
+langchain-anthropic==0.1.0
+transformers==4.35.0
+torch==2.1.0
+sentence-transformers==2.2.2
+
+# Database
+sqlalchemy==2.0.23
+alembic==1.12.1
+aiosqlite==0.19.0
+
+# Caching & Sessions
+redis==5.0.1
+hiredis==2.2.3
+
+# Web & HTTP
+httpx==0.25.1
+aiohttp==3.9.1
+websockets==12.0
+python-multipart==0.0.6
+
+# Image & Video Processing
+Pillow==10.1.0
+opencv-python==4.8.1.78
+moviepy==1.0.3
+
+# Audio Processing
+openai-whisper==20231117
+pyttsx3==2.90
+pydub==0.25.1
+
+# Document Processing
+pypdf2==3.0.1
+python-docx==1.1.0
+markdown==3.5.1
+
+# Web Scraping & Search
+beautifulsoup4==4.12.2
+duckduckgo-search==4.1.0
+tavily-python==0.7.13
+
+# Code Execution
+jupyter-client==8.6.0
+ipython==8.17.2
+
+# Utilities
+python-dotenv==1.0.0
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-dateutil==2.8.2
+pytz==2023.3
+
+# Monitoring & Logging
+loguru==0.7.2
+
+# Vector Database (optional)
+chromadb==0.4.15
+faiss-cpu==1.7.4
