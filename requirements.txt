@@ -31,7 +31,7 @@ websockets==12.0
 python-multipart==0.0.6
 
 # Image & Video Processing
-Pillow==10.1.0
+Pillow>=10.4.0
 opencv-python==4.8.1.78
 moviepy==1.0.3
 
